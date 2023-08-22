@@ -1,5 +1,5 @@
 
-FROM golang:1.19.0-alpine3.16
+FROM quay.io/giantswarm/golang:1.19.1-alpine3.16
 RUN apk add --no-cache git
 WORKDIR /go/src/github.com/ghgsnaidu/go-db-demo
 COPY . .
