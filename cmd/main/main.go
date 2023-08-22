@@ -12,7 +12,7 @@ func main() {
 	////wire.Build(dbconfig.NewConfig, dbconfig.InitDB, services.InitServices)
 	////getting db configurations
 	//
-	//fmt.Println("........router created")
+	fmt.Println("........router created")
 	//fmt.Println("added test log message")
 	//config := dbconfig.NewConfig()
 	//
