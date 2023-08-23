@@ -26,7 +26,7 @@ func main() {
 	//routers.RegisterRoutes(router)
 	//http.Handle("/", router)
 	//
-	//fmt.Println("server starting......")
+	fmt.Println("server starting......")
 	//err := http.ListenAndServe(":3000", router)
 	//if err != nil {
 	//	fmt.Println("error starting server...")
