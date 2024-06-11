@@ -19,14 +19,14 @@ func main() {
 
 	fmt.Println("........router created")
 
-	config := dbconfig.NewConfig()
+	//config := dbconfig.NewConfig()
 
 	//opening db connc by injecting config and getting db instance
 	fmt.Println("connecting to db")
-	db := dbconfig.InitDB(config)
+	//db := dbconfig.InitDB(config)
 
 	//injecting db into services layer
-	services.InitServices(db)
+	//services.InitServices(db)
 
 	routers.RegisterRoutes(router)
 	http.Handle("/", router)
