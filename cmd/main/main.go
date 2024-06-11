@@ -4,9 +4,7 @@ import (
 	"fmt"
 	"net/http"
 
-	"github.com/ghgsnaidu/go-db-demo/pkg/dbconfig"
 	"github.com/ghgsnaidu/go-db-demo/pkg/routers"
-	"github.com/ghgsnaidu/go-db-demo/pkg/services"
 	"github.com/gorilla/mux"
 )
 
