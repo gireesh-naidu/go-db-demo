@@ -12,6 +12,7 @@ import (
 
 func main() {
 
+	//  just added comment
 	//created router
 	router := mux.NewRouter()
 	//wire.Build(dbconfig.NewConfig, dbconfig.InitDB, services.InitServices)
